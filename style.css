@@ -29,9 +29,11 @@
 
 .gobuttonsdiv {
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
     
 }
 
@@ -56,7 +58,11 @@
 
 @media only screen and (max-width: 600px) {
    .gobuttons {
-    padding: 0.3rem 1.2rem;
+    display: flex;
+    padding: 0.4rem 1.1rem;
+    align-items: center;
+    margin: 10px;
+    font-size: 1.2rem;
    }
    * {
     margin-top: 5%;
