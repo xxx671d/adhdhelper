@@ -43,6 +43,9 @@
     border-radius: 0%;
     cursor: crosshair;
     white-space: nowrap;
+    :active {
+        color: #000000; 
+      }
 }
 
 .addedelements {
